@@ -1,6 +1,6 @@
 {
   "name": "@studionand/react-grid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a generic grid component with react and compatible sass mixins",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
-    "@studionand/ada-page-utils": "^0.0.1"
+    "@studionand/ada-page-utils": "^0.0.2"
   }
 }
