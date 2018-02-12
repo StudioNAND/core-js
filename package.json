@@ -4,7 +4,10 @@
   "description": "all @studionand javascript modules",
   "main": "lib/index.js",
   "scripts": {
-    "release": "lerna run build && lerna publish --force-publish --skip-npm",
+    "docs:build": "./node_modules/.bin/documentation build packages/**/src -f html -o docs",
+    "docs:serve": "./node_modules/.bin/documentation serve packages/**/src",
+    "docs:watch": "./node_modules/.bin/documentation serve --watch packages/**/src",
+    "release": "./node_modules/.bin/lerna run build && lerna publish --force-publish --skip-npm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "maerzhase",
@@ -14,6 +17,7 @@
     "url": "https://github.com/StudioNAND/core-js"
   },
   "devDependencies": {
+    "documentation": "^5.4.0",
     "lerna": "^2.8.0"
   }
 }

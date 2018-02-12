@@ -1,4 +1,7 @@
-// this function takes one or more functions and returns true if all of them are false
+/**
+ * This function adds one to its input.
+ * @returns {number} that number, plus one
+ */
 const none = filterFunctions => (page) => {
   const isTrue = filterFunctions.reduce((p, c) => {
     if (p) {
