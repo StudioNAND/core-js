@@ -1,6 +1,8 @@
 # @studionand/ada-page-utils
 
-This package provides commonly used filter and sorting methods which can be applied to the result of
+composition based filter and sorting utils for ada-pages
+
+This package provides provides filter and sorting methods which can be applied to the result of
 
 ```javascript
 const pages = api.pages.getPages({
