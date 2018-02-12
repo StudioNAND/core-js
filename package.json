@@ -4,6 +4,7 @@
   "description": "all @studionand javascript modules",
   "main": "lib/index.js",
   "scripts": {
+    "release": "lerna run build && lerna publish --force-publish --skip-npm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "maerzhase",
