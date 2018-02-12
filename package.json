@@ -4,7 +4,7 @@
   "description": "all @studionand javascript modules",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "maerzhase",
   "license": "MIT",
@@ -13,7 +13,6 @@
     "url": "https://github.com/StudioNAND/core-js"
   },
   "devDependencies": {
-  },
-  "dependencies": {
+    "lerna": "^2.8.0"
   }
 }
