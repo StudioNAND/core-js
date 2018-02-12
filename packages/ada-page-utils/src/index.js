@@ -1,7 +1,28 @@
-import filter from './filter';
-import sort from './sort';
+import {
+  invert,
+  sortPageAlphabetical,
+  sortPageChronological,
+} from './sort';
+import {
+  pagesWithDateBeforeToday,
+  pagesWithTag,
+  pagesWithoutTag,
+  pagesWithBaseTag,
+  pagesWithoutBaseTag,
+  all,
+  some,
+  none,
+} from './filter';
 
 export default {
-  ...filter,
-  ...sort,
+  pagesWithDateBeforeToday,
+  pagesWithTag,
+  pagesWithoutTag,
+  pagesWithBaseTag,
+  pagesWithoutBaseTag,
+  all,
+  some,
+  invert,
+  sortPageAlphabetical,
+  sortPageChronological,
 };
