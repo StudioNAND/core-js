@@ -1,6 +1,6 @@
 {
   "name": "@studionand/string-utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "all kind of string transformations and validations",
   "main": "index.js",
   "scripts": {
