@@ -21,7 +21,7 @@
   "jest": {
     "automock": false,
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.js?(x)",
+      "<rootDir>/src/**/__tests__/**/*.js?(x)"
     ]
   },
   "publishConfig": {
