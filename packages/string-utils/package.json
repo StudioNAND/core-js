@@ -23,5 +23,8 @@
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.js?(x)",
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
