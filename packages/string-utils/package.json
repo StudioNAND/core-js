@@ -1,0 +1,27 @@
+{
+  "name": "@studionand/string-utils",
+  "version": "0.0.0",
+  "description": "all kind of string transformations and validations",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "watch": "babel src -d dist --watch",
+    "test": "NODE_ENV=test jest --verbose"
+  },
+  "author": "m3000",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.2.2",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.2.2",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "jest": {
+    "automock": false,
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.js?(x)",
+    ]
+  }
+}
