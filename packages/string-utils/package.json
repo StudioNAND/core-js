@@ -2,7 +2,7 @@
   "name": "@studionand/string-utils",
   "version": "0.0.1",
   "description": "all kind of string transformations and validations",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "watch": "babel src -d dist --watch",
