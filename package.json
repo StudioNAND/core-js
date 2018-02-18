@@ -4,9 +4,9 @@
   "description": "all @studionand javascript modules",
   "main": "lib/index.js",
   "scripts": {
-    "docs:build": "./node_modules/.bin/documentation build packages/**/src -f html -o docs",
-    "docs:serve": "./node_modules/.bin/documentation serve packages/**/src",
-    "docs:watch": "./node_modules/.bin/documentation serve --watch packages/**/src",
+    "docs:build": "./node_modules/.bin/documentation build packages/**/src -f html -o docs --config documentation.yml",
+    "docs:serve": "./node_modules/.bin/documentation serve packages/**/src --config documentation.yml",
+    "docs:watch": "./node_modules/.bin/documentation serve --watch packages/**/src --config documentation.yml",
     "release": "./node_modules/.bin/lerna run build && lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

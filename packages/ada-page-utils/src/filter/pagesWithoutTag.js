@@ -1,5 +1,6 @@
 /**
  * This function uses `tag` to return a filter function that returns `true` if a page does not have that tag.
+ * @memberof AdaPageUtils
  * @property {string} tag
  * @returns {function} a filter function which can be used in Array.filter()
  */

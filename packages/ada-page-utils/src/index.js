@@ -1,3 +1,6 @@
+/**
+ * @namespace  AdaPageUtils
+ */
 import {
   invert,
   sortPageAlphabetical,

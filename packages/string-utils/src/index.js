@@ -4,11 +4,16 @@ import isVimeoURL from './validation/isVimeoURL';
 import isYoutubeURL from './validation/isYoutubeURL';
 import isSoundcloudURL from './validation/isSoundcloudURL';
 
-
+/**
+ * String utils for transformation and validation
+ * @example
+ * import { isUrl } from '@studionand/string-utils';
+ * @namespace StringUtils
+ */
 export {
-  capitalize,
   isURL,
   isVimeoURL,
   isYoutubeURL,
   isSoundcloudURL,
-}
+  capitalize,
+};

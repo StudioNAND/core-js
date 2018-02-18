@@ -1,4 +1,9 @@
-
+/**
+ * @memberof AdaPageUtils
+ * @param  {[type]}
+ * @param  {[type]}
+ * @return {[type]}
+ */
 const sortPageAlphabetical = (pageA, pageB) => {
   // console.log('sortPageAlphabetical');
   if (pageA.title.toLowerCase() < pageB.title.toLowerCase()) return -1;

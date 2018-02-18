@@ -1,7 +1,10 @@
-/*
- * see https://mathiasbynens.be/demo/url-regex
+/**
+ * This function validates if a string is a valid URL
+ * taken from: https://mathiasbynens.be/demo/url-regex
+ * @memberof StringUtils
+ * @param  {String} url to validate
+ * @return {Boolean} is valid url
  */
-
 const isURL = (url) => {
   const regexp = new RegExp(
     '^' +

@@ -1,5 +1,10 @@
 import moment from 'moment';
-
+/**
+ * @memberof AdaPageUtils
+ * @param  {[type]}
+ * @param  {[type]}
+ * @return {[type]}
+ */
 const sortPageChronological = (pageA, pageB) => {
   // console.log('sortPageChronological');
   // this function is used to sort the cards inside each group
