@@ -3,5 +3,5 @@ toc:
     file: "./md/AdaPageUtils.md"
   - AdaPageUtils
   - name: "@studionand/string-utils"
-    file: "./md/StringUtils.md"
+    file: "./packages/string-utils/README.md"
   - StringUtils
