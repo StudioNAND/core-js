@@ -1,6 +1,7 @@
 /**
  * This function transform the first letter of a string to an uppercase letter.
  * @memberof StringUtils
+ * @function capitalize
  * @param  {String} string to be capitalized
  * @return {String} capitalized string
  */
