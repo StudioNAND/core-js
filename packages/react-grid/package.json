@@ -4,15 +4,23 @@
   "description": "a generic grid component with react and compatible sass mixins",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "watch": "babel src -d dist --watch"
   },
   "author": "m3000",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.2.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "jest": "^22.2.2"
   },
   "dependencies": {
-    "@studionand/ada-page-utils": "^0.0.11"
+    "react": "^16.2.0",
+    "styled-components": "^3.1.6"
   }
 }
