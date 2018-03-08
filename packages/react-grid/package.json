@@ -1,6 +1,6 @@
 {
   "name": "@studionand/react-grid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a generic grid component with react and compatible sass mixins",
   "main": "dist/index.js",
   "scripts": {
