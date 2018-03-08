@@ -1,7 +1,20 @@
 import React from 'react';
+import { Grid } from '@studionand/react-grid'
 
 export default () => (
-  <div>
+  <Grid
+    styles={[
+      {
+        fontSize: '10px',
+      },
+      {
+        fontSize: '14px',
+      },
+      {
+        fontSize: '26px',
+      },
+    ]}
+  >
     Hello World
-  </div>
+  </Grid>
 );
