@@ -29,6 +29,7 @@ module.exports = {
     ],
     'no-underscore-dangle': 'off',
     'react/forbid-prop-types': 'off',
+    'react/no-unused-state': 'warn',
     'no-param-reassign': [
       'error',
       {
