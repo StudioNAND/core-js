@@ -17,6 +17,7 @@
     "url": "https://github.com/StudioNAND/core-js"
   },
   "devDependencies": {
+    "@studionand/eslint-config": "0.0.3",
     "babel-core": "^6.26.0",
     "babel-jest": "^22.2.2",
     "documentation": "^5.4.0",
