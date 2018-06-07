@@ -1,7 +1,7 @@
 /* eslint-disable quote-props */
 module.exports = {
   parser: 'babel-eslint',
-  extends:'airbnb',
+  extends: 'airbnb',
   env: {
     browser: true,
     node: true,
