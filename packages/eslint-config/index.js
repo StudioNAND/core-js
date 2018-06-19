@@ -61,7 +61,7 @@ module.exports = {
     "block-spacing": 2,
     "space-in-parens": 2,
     "space-before-blocks": 2,
-    "brace-style": [2, { "allowSingleLine": true }]
+    "brace-style": [ 2,  "1tbs", { "allowSingleLine": true }]
   },
   "globals": {
     "__DEV__": true
