@@ -50,7 +50,6 @@ module.exports = {
     ],
     "no-trailing-spaces": 2,
     "prefer-arrow-callback": 2,
-    "react/jsx-no-bind": 2,
     "object-curly-newline": ["error", {
       "ObjectExpression": "always",
       "ObjectPattern": "always",
