@@ -36,6 +36,33 @@ module.exports = {
       }
     ],
     "no-console": 1,
+    "react/display-name": 0,
+    "no-unused-vars": [
+      2,
+      {
+        "vars": "all",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "no-trailing-spaces": 2,
+    "prefer-arrow-callback": 2,
+    "react/jsx-no-bind": 2,
+    "object-curly-newline": ["error", {
+      "ObjectExpression": "always",
+      "ObjectPattern": "always",
+      "ImportDeclaration": { "multiline": true, "minProperties": 2 },
+      "ExportDeclaration": "always"
+    }],
+    "no-multi-spaces": 2,
+    "keyword-spacing": 2,
+    "block-spacing": 2,
+    "space-in-parens": 2,
+    "space-before-blocks": 2,
+    "brace-style": 2
   },
   "globals": {
     "__DEV__": true
