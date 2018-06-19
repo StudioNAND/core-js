@@ -51,10 +51,10 @@ module.exports = {
     "no-trailing-spaces": 2,
     "prefer-arrow-callback": 2,
     "object-curly-newline": ["error", {
-      "ObjectExpression": "always",
-      "ObjectPattern": "always",
-      "ImportDeclaration": { "multiline": true, "minProperties": 2 },
-      "ExportDeclaration": "always"
+      "ObjectExpression": { "multiline": true, "minProperties": 2, consistent: true }",
+      "ObjectPattern": { "multiline": true, "minProperties": 2, consistent: true },
+      "ImportDeclaration": { "multiline": true, "minProperties": 2, consistent: true},
+      "ExportDeclaration": { "multiline": true, "minProperties": 2, consistent: true },
     }],
     "no-multi-spaces": 2,
     "keyword-spacing": 2,
