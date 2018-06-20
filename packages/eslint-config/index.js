@@ -61,7 +61,12 @@ module.exports = {
     "block-spacing": 2,
     "space-in-parens": 2,
     "space-before-blocks": 2,
-    "brace-style": [ 2,  "1tbs", { "allowSingleLine": true }]
+    "brace-style": [ 2,  "1tbs", { "allowSingleLine": true }],
+    "prefer-template": 2,
+    "react/boolean-prop-naming": 2,
+    "react/no-typos": 2,
+    "react/jsx-curly-spacing": 2,
+    "indent": [2, 2]
   },
   "globals": {
     "__DEV__": true
