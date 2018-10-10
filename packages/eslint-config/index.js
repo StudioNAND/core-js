@@ -1,4 +1,6 @@
 /* eslint-disable quote-props */
+const prettierConfig = require('./prettier.config.js');
+
 module.exports = {
   parser: 'babel-eslint',
   extends: [
@@ -7,7 +9,12 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:react/recommended',
   ],
-  plugins: ['import', 'react', 'jsx-a11y'],
+  plugins: [
+    'import',
+    'react',
+    'jsx-a11y',
+    'prettier'
+  ],
   settings: {
     react: {
       version: '16.0',
@@ -21,6 +28,7 @@ module.exports = {
     es6: true,
   },
   rules: {
+    'prettier/prettier': ['error', prettierConfig],
     'no-underscore-dangle': 0,
     'react/forbid-prop-types': 0,
     'class-methods-use-this': 0,
