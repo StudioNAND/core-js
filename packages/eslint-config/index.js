@@ -8,6 +8,11 @@ module.exports = {
     'plugin:react/recommended',
   ],
   plugins: ['import', 'react', 'jsx-a11y'],
+  settings: {
+    react: {
+      version: '16.0',
+    },
+  },
   env: {
     browser: true,
     node: true,
@@ -74,7 +79,7 @@ module.exports = {
     'react/boolean-prop-naming': 2,
     'react/no-typos': 2,
     'react/jsx-curly-spacing': 2,
-    indent: [2, 2, { SwitchCase: 1 }],
+    indent: [2, 2, { SwitchCase: 1, flatTernaryExpressions: false }],
     'react/jsx-curly-brace-presence': 2,
     'object-curly-spacing': [2, 'always'],
     'switch-colon-spacing': ['error', { after: true, before: false }],
