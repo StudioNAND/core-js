@@ -87,7 +87,7 @@ module.exports = {
     'react/boolean-prop-naming': 2,
     'react/no-typos': 2,
     'react/jsx-curly-spacing': 2,
-    indent: [2, 2, { SwitchCase: 1, flatTernaryExpressions: false }],
+    // indent: [2, 2, { SwitchCase: 1, flatTernaryExpressions: true }],
     'react/jsx-curly-brace-presence': 2,
     'object-curly-spacing': [2, 'always'],
     'switch-colon-spacing': ['error', { after: true, before: false }],
