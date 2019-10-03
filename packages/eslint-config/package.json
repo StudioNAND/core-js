@@ -9,14 +9,14 @@
   "author": "m3000",
   "license": "ISC",
   "dependencies": {
-    "babel-eslint": "^8.2.3",
-    "prettier": "^1.14.3"
+    "babel-eslint": "^10.0.3",
+    "prettier": "^1.18.2"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.9.1"
+    "eslint": "^6.5.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.15.1"
   }
 }
