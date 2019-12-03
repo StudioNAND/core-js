@@ -1,6 +1,6 @@
 {
   "name": "@studionand/string-utils",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "all kind of string transformations and validations",
   "main": "dist/index.js",
   "publishConfig": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:StudioNAND",
+    "url": "ssh://git@github.com:StudioNAND/core-js.git",
     "directory": "packages/string-utils"
   },
   "scripts": {
