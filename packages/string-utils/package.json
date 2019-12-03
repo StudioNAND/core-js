@@ -1,6 +1,6 @@
 {
   "name": "@studionand/string-utils",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "all kind of string transformations and validations",
   "main": "dist/index.js",
   "publishConfig": {
@@ -31,5 +31,6 @@
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.js?(x)"
     ]
-  }
+  },
+  "gitHead": "0fe11a36f3d4b54705325cefc91874d042632389"
 }
