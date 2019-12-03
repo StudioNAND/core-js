@@ -1,7 +1,0 @@
-{
-  "presets": ["env", "react"],
-  "plugins": ["transform-runtime",["transform-object-rest-spread", { "useBuiltIns": true }], "transform-class-properties"],
-  "ignore": [
-    "*.test.js"
-  ],
-}

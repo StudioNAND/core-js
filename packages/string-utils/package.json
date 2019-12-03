@@ -4,7 +4,7 @@
   "description": "all kind of string transformations and validations",
   "main": "dist/index.js",
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
