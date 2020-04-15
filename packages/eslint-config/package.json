@@ -1,6 +1,6 @@
 {
   "name": "@studionand/eslint-config",
-  "version": "0.0.28",
+  "version": "0.0.30",
   "description": "a central eslint config that is used across es6 projects at StudioNAND",
   "main": "index.js",
   "repository": {

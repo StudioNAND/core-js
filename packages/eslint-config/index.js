@@ -56,27 +56,6 @@ module.exports = {
     semi: [2, 'always'],
     'no-trailing-spaces': 2,
     'prefer-arrow-callback': 2,
-    'object-curly-newline': [
-      'error',
-      {
-        ObjectExpression: {
-          multiline: true,
-          minProperties: 6,
-          consistent: true,
-        },
-        ObjectPattern: { multiline: true, minProperties: 6, consistent: true },
-        ImportDeclaration: {
-          multiline: true,
-          minProperties: 6,
-          consistent: true,
-        },
-        ExportDeclaration: {
-          multiline: true,
-          minProperties: 6,
-          consistent: true,
-        },
-      },
-    ],
     'no-multi-spaces': 2,
     'keyword-spacing': 2,
     'block-spacing': 2,
