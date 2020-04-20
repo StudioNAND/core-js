@@ -54,7 +54,6 @@ module.exports = {
       },
     ],
     semi: [2, 'always'],
-    'no-trailing-spaces': 2,
     'prefer-arrow-callback': 2,
     'no-multi-spaces': 2,
     'keyword-spacing': 2,

@@ -1,8 +1,13 @@
 {
   "name": "@studionand/string-utils",
-  "version": "0.0.6",
+  "version": "0.0.12",
   "description": "all kind of string transformations and validations",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:StudioNAND/core-js.git",
+    "directory": "packages/string-utils"
+  },
   "scripts": {
     "build": "babel src -d dist",
     "watch": "babel src -d dist --watch",
@@ -24,7 +29,5 @@
       "<rootDir>/src/**/__tests__/**/*.js?(x)"
     ]
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "gitHead": "0fe11a36f3d4b54705325cefc91874d042632389"
 }

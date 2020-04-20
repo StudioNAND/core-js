@@ -5,5 +5,5 @@
 /packages/*/dist
 *.log
 *.cache
-package-lock.json
 dist
+.npmrc

@@ -21,7 +21,7 @@
     "babel-core": "^6.26.0",
     "babel-jest": "^22.2.2",
     "documentation": "^5.4.0",
-    "lerna": "^2.8.0",
+    "lerna": "^3.19.0",
     "regenerator-runtime": "^0.11.1"
   }
 }
