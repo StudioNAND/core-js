@@ -53,7 +53,7 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-    semi: [2, 'always'],
+    semi: 0,
     'prefer-arrow-callback': 2,
     'no-multi-spaces': 2,
     'keyword-spacing': 2,
